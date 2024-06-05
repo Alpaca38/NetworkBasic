@@ -16,6 +16,18 @@
 		D1957EF92C0D42E40080E2FF /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957EF72C0D42E40080E2FF /* BasicTableViewCell.swift */; };
 		D1957EFA2C0D42E40080E2FF /* BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1957EF82C0D42E40080E2FF /* BasicTableViewCell.xib */; };
 		D1957EFC2C0D458F0080E2FF /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957EFB2C0D458F0080E2FF /* ReusableProtocol.swift */; };
+		D1957EFE2C0D57DD0080E2FF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957EFD2C0D57DD0080E2FF /* UIColor+Extension.swift */; };
+		D1957F002C0D5A270080E2FF /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957EFF2C0D5A270080E2FF /* UserViewController.swift */; };
+		D1957F022C0D5F070080E2FF /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F012C0D5F070080E2FF /* AddEditViewController.swift */; };
+		D1957F072C0E98F60080E2FF /* FrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F062C0E98F60080E2FF /* FrameViewController.swift */; };
+		D1957F092C0E9B030080E2FF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F082C0E9B030080E2FF /* UIView+Extension.swift */; };
+		D1957F0B2C0EA2600080E2FF /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F0A2C0EA2600080E2FF /* ConstraintsViewController.swift */; };
+		D1957F132C0EB1C00080E2FF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D1957F122C0EB1C00080E2FF /* SnapKit */; };
+		D1957F152C0EB3090080E2FF /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F142C0EB3090080E2FF /* SnapViewController.swift */; };
+		D1957F172C0EBC120080E2FF /* Snap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F162C0EBC120080E2FF /* Snap2ViewController.swift */; };
+		D1957F1A2C0EED580080E2FF /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F192C0EED580080E2FF /* LottoViewController.swift */; };
+		D1957F1D2C0EEDB30080E2FF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D1957F1C2C0EEDB30080E2FF /* Alamofire */; };
+		D1957F7A2C105A3B0080E2FF /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F792C105A3B0080E2FF /* Extension+UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +42,16 @@
 		D1957EF72C0D42E40080E2FF /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
 		D1957EF82C0D42E40080E2FF /* BasicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTableViewCell.xib; sourceTree = "<group>"; };
 		D1957EFB2C0D458F0080E2FF /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		D1957EFD2C0D57DD0080E2FF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D1957EFF2C0D5A270080E2FF /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D1957F012C0D5F070080E2FF /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		D1957F062C0E98F60080E2FF /* FrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewController.swift; sourceTree = "<group>"; };
+		D1957F082C0E9B030080E2FF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D1957F0A2C0EA2600080E2FF /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		D1957F142C0EB3090080E2FF /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
+		D1957F162C0EBC120080E2FF /* Snap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap2ViewController.swift; sourceTree = "<group>"; };
+		D1957F192C0EED580080E2FF /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		D1957F792C105A3B0080E2FF /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1957F132C0EB1C00080E2FF /* SnapKit in Frameworks */,
+				D1957F1D2C0EEDB30080E2FF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +70,8 @@
 		D1957ED72C0D414F0080E2FF = {
 			isa = PBXGroup;
 			children = (
+				D1957F182C0EED3E0080E2FF /* Network */,
+				D1957F052C0E98AE0080E2FF /* Codebase */,
 				D1957EE22C0D414F0080E2FF /* NetworkBasic */,
 				D1957EE12C0D414F0080E2FF /* Products */,
 			);
@@ -72,8 +98,32 @@
 				D1957EF72C0D42E40080E2FF /* BasicTableViewCell.swift */,
 				D1957EF82C0D42E40080E2FF /* BasicTableViewCell.xib */,
 				D1957EFB2C0D458F0080E2FF /* ReusableProtocol.swift */,
+				D1957EFD2C0D57DD0080E2FF /* UIColor+Extension.swift */,
+				D1957EFF2C0D5A270080E2FF /* UserViewController.swift */,
+				D1957F012C0D5F070080E2FF /* AddEditViewController.swift */,
 			);
 			path = NetworkBasic;
+			sourceTree = "<group>";
+		};
+		D1957F052C0E98AE0080E2FF /* Codebase */ = {
+			isa = PBXGroup;
+			children = (
+				D1957F062C0E98F60080E2FF /* FrameViewController.swift */,
+				D1957F082C0E9B030080E2FF /* UIView+Extension.swift */,
+				D1957F0A2C0EA2600080E2FF /* ConstraintsViewController.swift */,
+				D1957F142C0EB3090080E2FF /* SnapViewController.swift */,
+				D1957F162C0EBC120080E2FF /* Snap2ViewController.swift */,
+			);
+			path = Codebase;
+			sourceTree = "<group>";
+		};
+		D1957F182C0EED3E0080E2FF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D1957F192C0EED580080E2FF /* LottoViewController.swift */,
+				D1957F792C105A3B0080E2FF /* Extension+UILabel.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +142,10 @@
 			dependencies = (
 			);
 			name = NetworkBasic;
+			packageProductDependencies = (
+				D1957F122C0EB1C00080E2FF /* SnapKit */,
+				D1957F1C2C0EEDB30080E2FF /* Alamofire */,
+			);
 			productName = NetworkBasic;
 			productReference = D1957EE02C0D414F0080E2FF /* NetworkBasic.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +174,10 @@
 				Base,
 			);
 			mainGroup = D1957ED72C0D414F0080E2FF;
+			packageReferences = (
+				D1957F112C0EB1C00080E2FF /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D1957F1B2C0EEDB30080E2FF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D1957EE12C0D414F0080E2FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,10 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1957F152C0EB3090080E2FF /* SnapViewController.swift in Sources */,
+				D1957F022C0D5F070080E2FF /* AddEditViewController.swift in Sources */,
+				D1957F002C0D5A270080E2FF /* UserViewController.swift in Sources */,
+				D1957F1A2C0EED580080E2FF /* LottoViewController.swift in Sources */,
+				D1957F172C0EBC120080E2FF /* Snap2ViewController.swift in Sources */,
 				D1957EF92C0D42E40080E2FF /* BasicTableViewCell.swift in Sources */,
+				D1957F7A2C105A3B0080E2FF /* Extension+UILabel.swift in Sources */,
+				D1957F072C0E98F60080E2FF /* FrameViewController.swift in Sources */,
 				D1957EE82C0D414F0080E2FF /* ViewController.swift in Sources */,
+				D1957F0B2C0EA2600080E2FF /* ConstraintsViewController.swift in Sources */,
 				D1957EFC2C0D458F0080E2FF /* ReusableProtocol.swift in Sources */,
+				D1957EFE2C0D57DD0080E2FF /* UIColor+Extension.swift in Sources */,
 				D1957EE42C0D414F0080E2FF /* AppDelegate.swift in Sources */,
+				D1957F092C0E9B030080E2FF /* UIView+Extension.swift in Sources */,
 				D1957EE62C0D414F0080E2FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +451,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1957F112C0EB1C00080E2FF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		D1957F1B2C0EEDB30080E2FF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1957F122C0EB1C00080E2FF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1957F112C0EB1C00080E2FF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D1957F1C2C0EEDB30080E2FF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1957F1B2C0EEDB30080E2FF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1957ED82C0D414F0080E2FF /* Project object */;
 }
